@@ -100,6 +100,9 @@
       <Trigger>PageUp</Trigger>
     </Action>
 	-->
+   <Action name="OpenSettings" displayName="UI.OpenSettings" ignoreModifiers="true">
+      <Trigger>Period</Trigger>
+    </Action>
     <Action name="OpenSquadPage" displayName="UI.OpenSquadPage" ignoreModifiers="true">
       <Trigger>P</Trigger>
     </Action>

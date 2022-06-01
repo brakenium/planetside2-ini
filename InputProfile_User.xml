@@ -79,8 +79,8 @@
         <Action name="SpotPlayer">
             <Trigger>Q</Trigger>
         </Action>
-        <Action name="ToggleVideoCapture">
-            <Trigger>PageUp</Trigger>
+        <Action name="OpenSettings">
+            <Trigger>Period</Trigger>
         </Action>
         <Action name="OpenSquadPage">
             <Trigger>P</Trigger>
