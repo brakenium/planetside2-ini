@@ -1,5 +1,5 @@
 <Profile name="User" version="3">
-    <ActionSet name="Generic" radialMenuNavigation="Right">
+    <ActionSet name="Generic" actionSetType="" radialMenuNavigation="Right">
         <Action name="StartChatText">
             <Trigger>Return</Trigger>
         </Action>
@@ -117,10 +117,10 @@
             <Trigger>Home</Trigger>
         </Action>
         <Action name="IncrementMinimapZoom">
-            <Trigger>MouseWheel+</Trigger>
+            <Trigger>MouseWheelUp</Trigger>
         </Action>
         <Action name="DecrementMinimapZoom">
-            <Trigger>MouseWheel-</Trigger>
+            <Trigger>MouseWheelDown</Trigger>
         </Action>
         <Action name="SquadPromoteMe" />
         <Action name="QuickIncreaseRenderDistance">
@@ -130,7 +130,7 @@
             <Trigger>Bracket_Left</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="QuickChat" radialMenuNavigation="Right">
+    <ActionSet name="QuickChat" actionSetType="" radialMenuNavigation="Right">
         <Action name="QuickChat1">
             <Trigger>1</Trigger>
         </Action>
@@ -162,18 +162,22 @@
             <Trigger>0</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="GroundVehicle" radialMenuNavigation="Right">
+    <ActionSet name="GroundVehicle" actionSetType="" radialMenuNavigation="Right">
         <Action name="MoveForward">
             <Trigger>W</Trigger>
+            <Trigger>Gamepad_1_Axis_LZ-</Trigger>
         </Action>
         <Action name="MoveBackward">
             <Trigger>S</Trigger>
+            <Trigger>Gamepad_1_Axis_LY-</Trigger>
         </Action>
         <Action name="MoveLeft">
             <Trigger>A</Trigger>
+            <Trigger>Gamepad_1_Axis_LX-</Trigger>
         </Action>
         <Action name="MoveRight">
             <Trigger>D</Trigger>
+            <Trigger>Gamepad_1_Axis_LX+</Trigger>
         </Action>
         <Action name="Handbrake">
             <Trigger>Space</Trigger>
@@ -181,16 +185,20 @@
         <Action name="YawLeft">
             <Trigger>Left</Trigger>
             <Trigger>F22</Trigger>
+            <Trigger>Gamepad_1_Button_Pov0Left</Trigger>
         </Action>
         <Action name="YawRight">
             <Trigger>Right</Trigger>
             <Trigger>F23</Trigger>
+            <Trigger>Gamepad_1_Button_Pov0Right</Trigger>
         </Action>
         <Action name="PitchUp">
             <Trigger>Up</Trigger>
+            <Trigger>Gamepad_1_Button_Pov0Up</Trigger>
         </Action>
         <Action name="PitchDown">
             <Trigger>Down</Trigger>
+            <Trigger>Gamepad_1_Button_Pov0Down</Trigger>
         </Action>
         <Action name="CruiseMaxSpeed">
             <Trigger>Equals</Trigger>
@@ -228,10 +236,12 @@
         <Action name="Afterburner">
             <Trigger>Shift_Left</Trigger>
             <Trigger>Shift_Right</Trigger>
+            <Trigger>Gamepad_1_Button_8</Trigger>
         </Action>
         <Action name="VehicleAbility">
             <Trigger>F</Trigger>
             <Trigger>Mouse_4</Trigger>
+            <Trigger>Gamepad_1_Button_9</Trigger>
         </Action>
         <Action name="Horn">
             <Trigger>Z</Trigger>
@@ -273,7 +283,7 @@
             <Trigger>F12</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="Aircraft" radialMenuNavigation="Right">
+    <ActionSet name="Aircraft" actionSetType="" radialMenuNavigation="Right">
         <Action name="MoveForward">
             <Trigger>W</Trigger>
         </Action>
@@ -394,7 +404,7 @@
             <Trigger>F12</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="Infantry" radialMenuNavigation="Right">
+    <ActionSet name="Infantry" actionSetType="" radialMenuNavigation="Right">
         <Action name="MoveForward">
             <Trigger>W</Trigger>
             <Trigger>Up</Trigger>
@@ -504,7 +514,7 @@
             <Trigger>Equals</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="FreeFly" radialMenuNavigation="Right">
+    <ActionSet name="FreeFly" actionSetType="" radialMenuNavigation="Right">
         <Action name="FreeLook">
             <Trigger>Mouse_1</Trigger>
         </Action>
@@ -550,7 +560,7 @@
             <Trigger>D</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="Deploy" radialMenuNavigation="Right">
+    <ActionSet name="Deploy" actionSetType="" radialMenuNavigation="Right">
         <Action name="RotateLeft">
             <Trigger>Mouse_0</Trigger>
         </Action>
@@ -565,7 +575,7 @@
             <Trigger>Control_Right</Trigger>
         </Action>
     </ActionSet>
-    <ActionSet name="UI_Map" radialMenuNavigation="Right">
+    <ActionSet name="UI_Map" actionSetType="" radialMenuNavigation="Right">
         <Action name="MapToggleIndicatorInteraction">
             <Trigger>Control_Left</Trigger>
             <Trigger>Control_Right</Trigger>
