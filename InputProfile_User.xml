@@ -1,4 +1,4 @@
-<Profile name="User" version="3">
+<Profile name="User" version="5">
     <ActionSet name="Generic" actionSetType="" radialMenuNavigation="Right">
         <Action name="StartChatText">
             <Trigger>Return</Trigger>
@@ -53,7 +53,8 @@
             <Trigger>X</Trigger>
         </Action>
         <Action name="VoiceChatSquadLeader">
-            <Trigger>F18</Trigger>
+            <Trigger>F15</Trigger>
+            <Trigger>KP_7</Trigger>
         </Action>
         <Action name="VoiceChatPlatoon">
             <Trigger>C</Trigger>
@@ -238,10 +239,17 @@
             <Trigger>Shift_Right</Trigger>
             <Trigger>Gamepad_1_Button_8</Trigger>
         </Action>
-        <Action name="VehicleAbility">
+        <Action name="PreviousVehicleAbility">
             <Trigger>F</Trigger>
-            <Trigger>Mouse_4</Trigger>
-            <Trigger>Gamepad_1_Button_9</Trigger>
+        </Action>
+        <Action name="VehicleAbility1">
+            <Trigger>3</Trigger>
+        </Action>
+        <Action name="VehicleAbility2">
+            <Trigger>4</Trigger>
+        </Action>
+        <Action name="VehicleAbility3">
+            <Trigger>5</Trigger>
         </Action>
         <Action name="Horn">
             <Trigger>Z</Trigger>
@@ -360,9 +368,17 @@
             <Trigger>Shift_Left</Trigger>
             <Trigger>Shift_Right</Trigger>
         </Action>
-        <Action name="VehicleAbility">
+        <Action name="PreviousVehicleAbility">
             <Trigger>F</Trigger>
-            <Trigger>Mouse_4</Trigger>
+        </Action>
+        <Action name="VehicleAbility1">
+            <Trigger>3</Trigger>
+        </Action>
+        <Action name="VehicleAbility2">
+            <Trigger>4</Trigger>
+        </Action>
+        <Action name="VehicleAbility3">
+            <Trigger>5</Trigger>
         </Action>
         <Action name="Horn">
             <Trigger>Z</Trigger>
@@ -485,7 +501,6 @@
             <Trigger>0</Trigger>
         </Action>
         <Action name="WieldMelee">
-            <Trigger>Minus</Trigger>
             <Trigger>F23</Trigger>
         </Action>
         <Action name="Fire">
